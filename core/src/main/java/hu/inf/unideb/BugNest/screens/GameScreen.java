@@ -92,7 +92,6 @@ public class GameScreen implements Screen {
             if (xp.getBounds().overlaps(player.getBounds())) {
                 xpObjects.removeIndex(i);
                 player.addXP(1);
-                System.out.println("Player Level: " + player.getLevel());
             }
         }
     }
